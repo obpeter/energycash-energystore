@@ -1,0 +1,15 @@
+# GraphQL energystore
+#
+
+scalar EegEnergy
+
+scalar Upload
+
+type Query {
+  eeg(name: String!, year: Int!, month: Int, function: String): EegEnergy!
+}
+
+"The `Mutation` type, represents all updates we can make to our data."
+type Mutation {
+    singleUpload(tenant: String!, sheet: String!, file: Upload!): Boolean!
+}
