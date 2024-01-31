@@ -7,8 +7,7 @@
     "public-client": true,
     "verify-token-audience": true,
     "use-resource-role-mappings": true,
-    "confidential-port": 0,
-    "secret": "LxUXJLXP2Ra57y4RcIzXPYgNHvJF7H1j"
+    "confidential-port": 0
   },
   "admin" : {
     "realm": "VFEEG",
@@ -18,8 +17,7 @@
     "public-client": true,
     "verify-token-audience": true,
     "use-resource-role-mappings": true,
-    "confidential-port": 0,
-    "secret": "LxUXJLXP2Ra57y4RcIzXPYgNHvJF7H1j"
+    "confidential-port": 0
   },
   "api" : {
     "realm": "VFEEG",
@@ -29,7 +27,6 @@
     "public-client": true,
     "verify-token-audience": true,
     "use-resource-role-mappings": true,
-    "confidential-port": 0,
-    "secret": "LxUXJLXP2Ra57y4RcIzXPYgNHvJF7H1j"
+    "confidential-port": 0
   }
 }
