@@ -17,7 +17,7 @@ RUN go build -o /usr/local/bin/estore -ldflags="-s -w" estore.go
 
 COPY config.yaml /etc/energystore/
 
-RUN rm -r ./*
+#RUN rm -r ./*
 
 VOLUME /opt/rawdata
 
